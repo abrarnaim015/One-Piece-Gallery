@@ -1,0 +1,463 @@
+/* html{
+    margin: 0;
+    border: 0;
+    padding: 0;
+} */
+
+body.home-page{
+    /* background-image: url("img/home.jpg"); */
+    background: url("img/back4.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+a{
+    text-decoration: none;
+    color: snow;
+}
+
+body.home-luffy{
+    background-image: url("img/luffy.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+body.home-zoro{
+    background-image: url("img/zoro.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+body.home-nami{
+    background-image: url("img/nami.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+body.home-usopp{
+    background-image: url("img/usopp2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+body.home-sanji{
+    background-image: url("img/sanji.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+body.home-chopper{
+    background-image: url("img/chopper.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+body.home-robin{
+    background-image: url("img/robin.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+body.home-franky{
+    background-image: url("img/franky.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+body.home-brook{
+    background-image: url("img/brook.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+header img{
+    width: 2em;
+    float: right;
+    margin-top: 1.5em;
+    margin-right: 2em;
+}
+
+#logo{
+    width: 10em;
+    margin: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 3em;
+    float: left;
+}
+
+
+
+header{
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-decoration: none;
+    background-color: rgb(39, 75, 238);
+    opacity: 0.8;
+    position: fixed;
+    clear: both;
+    overflow: hidden;
+    display: inline-flex;
+    z-index: 100;
+    -webkit-box-shadow: 0px 10px 5px 0px rgba(54,63,235,0.79);
+    -moz-box-shadow: 0px 10px 5px 0px rgba(54,63,235,0.79);
+    box-shadow: 0px 10px 5px 0px rgba(54,63,235,0.79);
+}
+
+header .nav-judul{
+    width: 30%;
+    color: snow;
+}
+
+header .nav-bar{
+    width: 40%;
+    
+}
+
+header .nav-sosmed{
+    width: 30%;
+    float: right;
+}
+
+li{
+    margin-top: 1em;
+    display: inline-block;
+    color: snow;
+}
+
+.home{
+    margin-left: 3em;
+    margin-right: 5em;
+}
+.image{
+    margin-right: 5em;
+}
+
+
+img.next1{
+    background-color: rgb(165, 42, 42, 0.9);
+    border-radius: 50%;
+    display: block;
+    top: 33em;
+    left: 75em;
+    width: 5em;
+    position: fixed;
+    -webkit-box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+    -moz-box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+    box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+}
+
+img.next1:hover{
+    /* width: 7em;
+    transition: font-size 2s; */
+    font-size: x-large;
+    transition: font-size 5s;
+}
+
+audio{
+    display: block;
+    top: 35em;
+    position: fixed;
+    /* width: 10em; */
+}
+
+.footer{
+    margin-top: 50em;
+    margin-bottom: 10em;
+    background-color: black;
+    opacity: 0.9;
+    padding: 1em;
+}
+.footer ul{
+    margin:0;
+    padding:0;
+}
+.footer ul li{
+    padding: 2em;
+    color:#E98A8A;
+}
+.footer ul li span {
+    display:block;
+    font-size:1.4em;
+    margin-bottom:1em;
+    color: white;
+}
+.footer ul{
+    display:grid;
+    list-style-type:none;
+    margin:0;padding:0;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(3, auto);
+}
+
+.one-piece{
+    margin-top: 50em;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-bottom: 10em;
+    background-color: black;
+    opacity: 0.9;
+    color: snow;
+}
+
+.one-piece img{
+    width: 50em;
+    margin-left: 7em;
+}
+
+.one-piece h2, p{
+    margin: 0em 3em 2em 3em;
+    line-height: 2em;
+}
+
+.lastp1{
+    margin-bottom: 3em;
+    border-bottom: 1px solid rgb(212, 6, 6);
+}
+
+.strGame img{
+    /* width: 10em; */
+    max-width: 20%;
+    margin-top: 15%;
+    margin-left: 40%; 
+}
+
+.strGalerry img{
+    max-width: 20%;
+    margin-top: 15%;
+    margin-left: 40%;
+    margin-bottom: 40%;
+}
+
+.game1 button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    margin-top: 25%;
+    margin-left: 19%;
+    padding: 1em 3em 1em 3em;
+    border-radius: 10px;
+    border-color: yellow;
+    background-color: rgb(214, 44, 44);
+    -webkit-box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+    -moz-box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+    box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+}
+
+.game2 button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    margin-top: 25%;
+    margin-left: 19%;
+    padding: 1em 3em 1em 3em;
+    border-radius: 10px;
+    border-color:rgb(214, 44, 44);
+    background-color: rgb(19, 112, 19);
+    -webkit-box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+    -moz-box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+    box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+}
+
+.game3 button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    margin-top: 25%;
+    margin-left: 25%;
+    padding: 1em 3em 1em 3em;
+    border-radius: 10px;
+    border-color:rgb(214, 44, 44);
+    background-color: orange;
+    -webkit-box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+    -moz-box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+    box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+}
+
+
+.game4 button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    margin-top: 25%;
+    margin-left: 15%;
+    padding: 1em 3em 1em 3em;
+    border-radius: 10px;
+    border-color:yellow;
+    background-color: rgb(199, 96, 59);
+    -webkit-box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+    -moz-box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+    box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+}
+
+.game5 button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    margin-top: 25%;
+    margin-left: 20%;
+    padding: 1em 3em 1em 3em;
+    border-radius: 10px;
+    border-color:yellow;
+    background-color: palevioletred;
+    -webkit-box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+    -moz-box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+    box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+}
+
+.game6 button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: snow;
+    margin-top: 25%;
+    margin-left: 19%;
+    padding: 1em 3em 1em 3em;
+    border-radius: 10px;
+    border-color:palevioletred;
+    background-color: rgb(30, 146, 240);
+    -webkit-box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+    -moz-box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+    box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+}
+
+.game7 button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: snow;
+    margin-top: 25%;
+    margin-left: 30%;
+    padding: 1em 3em 1em 3em;
+    border-radius: 10px;
+    border-color: whitesmoke;
+    background-color: purple;
+    -webkit-box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+    -moz-box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+    box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+}
+
+.game8 button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: snow;
+    margin-top: 25%;
+    margin-left: 25%;
+    padding: 1em 3em 1em 3em;
+    border-radius: 10px;
+    border-color: whitesmoke;
+    background-color: rgb(0, 0, 192);
+    -webkit-box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+    -moz-box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+    box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+}
+
+.game9 button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: snow;
+    margin-top: 25%;
+    margin-left: 25%;
+    padding: 1em 3em 1em 3em;
+    border-radius: 10px;
+    border-color: gold;
+    background-color: rgb(1, 1, 17);
+    -webkit-box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+    -moz-box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+    box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+}
+
+button:hover{
+    font-size: x-large;
+    transition: font-size 1s;
+    -webkit-box-shadow: 0px 0px 34px 13px rgba(82, 25, 25, 0.83);
+    -moz-box-shadow: 0px 0px 34px 13px rgba(145, 46, 46, 0.83);
+    box-shadow: 0px 0px 34px 13px rgba(146, 48, 48, 0.83);
+}
+
+
+.display-none{
+    display: none;
+}
+
+.jawaban img{
+    margin-top: 7%;
+    margin-left: 25%;
+    width: 50%;
+    z-index: 100;
+    background-color: rgb(169, 169, 169, 0.8);
+    /* border: solid; */
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+    -moz-box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+    box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+}
+
+table{
+    border: black;
+    border-style: solid;
+}
+
+table{
+    position: relative;
+    margin-left: 1em;
+    background-color: rgb(169, 169, 169, 0.8);
+}
+
+table li img{
+    width: 80em;
+}
+
+.profile img{
+    width: 20em;
+
+}
+
+.profile{
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-bottom: 5em;
+    margin-top: 20em;
+}
+
+.profile p{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.profile h1{
+    color: black;
+}
+
+.profile strong{
+    font-style: oblique;
+}
+
+.bonus button{
+    background-color: rgb(0, 0, 255, 0.9);
+}
+
+.imgBonus img{
+    margin-top: 7%;
+    margin-left: 25%;
+    width: 60%;
+    z-index: 100;
+    background-color: rgb(169, 169, 169, 0.8);
+    /* border: solid; */
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+    -moz-box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+    box-shadow: 0px 0px 34px 13px rgba(0,0,0,0.83);
+}
+
+.display-hilang{
+    display: none;
+}
+
